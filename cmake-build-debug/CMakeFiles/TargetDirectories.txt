@@ -1,0 +1,3 @@
+/home/ollie/programs/c++/SIunits/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/ollie/programs/c++/SIunits/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ollie/programs/c++/SIunits/cmake-build-debug/CMakeFiles/SIunits.dir

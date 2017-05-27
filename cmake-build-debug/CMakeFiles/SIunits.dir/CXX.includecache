@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ollie/programs/c++/SIunits/library.cpp
+library.h
+/home/ollie/programs/c++/SIunits/library.h
+iostream
+-
+
+/home/ollie/programs/c++/SIunits/library.h
+utility
+-
+ratio
+-
+iostream
+-
+
+/home/ollie/programs/c++/SIunits/subUnit.cpp
+library.cpp
+/home/ollie/programs/c++/SIunits/library.cpp
+

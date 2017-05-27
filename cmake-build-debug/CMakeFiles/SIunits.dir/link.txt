@@ -1,0 +1,2 @@
+/usr/bin/ar qc libSIunits.a  CMakeFiles/SIunits.dir/library.cpp.o CMakeFiles/SIunits.dir/subUnit.cpp.o
+/usr/bin/ranlib libSIunits.a
