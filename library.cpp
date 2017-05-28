@@ -1,3 +1,6 @@
+#ifndef SI_LIBRARY_CPP
+#define SI_LIBRARY_CPP
+
 #include "library.h"
 
 #include <iostream>
@@ -11,6 +14,13 @@ constexpr base_unit<base_type, ratio, metres, kilograms, seconds, ampere, kelvin
     return d;
 };
 
+template<typename base_type, typename ratio1, int metres, int kilograms, int seconds, int ampere, int kelvin, int mole, int candela>
+template<typename base_type2, typename ratio2>
+constexpr base_unit<base_type, ratio1, metres, kilograms, seconds, ampere, kelvin, mole, candela>&
+base_unit<base_type, ratio1, metres, kilograms, seconds, ampere, kelvin, mole, candela>::operator=(const base_unit<base_type2, ratio2, metres, kilograms, seconds, ampere, kelvin, mole, candela>& rhs) {
+    d = (ratio1::num * ((ratio2::num * base_type2(rhs) / ratio2::den)) / ratio1::den);
+    return *this;
+};
 
 template<typename base_type1, typename base_type2, typename ratio1, typename ratio2, int metres, int kilograms, int seconds, int ampere, int kelvin, int mole, int candela>
 auto operator+(base_unit<base_type1, ratio1, metres, kilograms, seconds, ampere, kelvin, mole, candela>& lhs,
@@ -47,12 +57,6 @@ auto operator/(base_unit<base_type1, ratio1, metres1, kilograms1, seconds1, ampe
             (ratio1::num * base_type1(lhs) / ratio1::den) / (ratio2::num * base_type2(rhs) / ratio2::den));
 };
 
-template<typename base_type, typename ratio1, int metres, int kilograms, int seconds, int ampere, int kelvin, int mole, int candela>
-template<typename base_type2, typename ratio2>
-constexpr base_unit<base_type, ratio1, metres, kilograms, seconds, ampere, kelvin, mole, candela>&
-base_unit<base_type, ratio1, metres, kilograms, seconds, ampere, kelvin, mole, candela>::operator=(const base_unit<base_type2, ratio2, metres, kilograms, seconds, ampere, kelvin, mole, candela>& rhs) {
-    d = (ratio1::num * ((ratio2::num * base_type2(rhs) / ratio2::dem)) / ratio1::dem);
-};
 
 //#####################################################
 //SI units
@@ -126,3 +130,5 @@ std::ostream& operator<<(std::ostream& cout, base_unit<base_type, ratio, metres,
     }
     return cout;
 };
+
+#endif
