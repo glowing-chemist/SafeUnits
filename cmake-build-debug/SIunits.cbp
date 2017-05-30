@@ -8,90 +8,95 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/ollie/programs/c++/SIunits/cmake-build-debug"/>
+				<Option working_dir="/home/ollie/programs/c++/SafeUnits/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/home/ollie/programs/c++/SIunits/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/ollie/programs/c++/SIunits/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/home/ollie/programs/c++/SIunits/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/home/ollie/programs/c++/SIunits/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ollie/programs/c++/SafeUnits/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ollie/programs/c++/SafeUnits/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ollie/programs/c++/SafeUnits/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ollie/programs/c++/SafeUnits/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/ollie/programs/c++/SIunits/cmake-build-debug"/>
+				<Option working_dir="/home/ollie/programs/c++/SafeUnits/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/home/ollie/programs/c++/SIunits/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/ollie/programs/c++/SIunits/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/home/ollie/programs/c++/SIunits/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/home/ollie/programs/c++/SIunits/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ollie/programs/c++/SafeUnits/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ollie/programs/c++/SafeUnits/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ollie/programs/c++/SafeUnits/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ollie/programs/c++/SafeUnits/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/ollie/programs/c++/SIunits/cmake-build-debug"/>
+				<Option working_dir="/home/ollie/programs/c++/SafeUnits/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/home/ollie/programs/c++/SIunits/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/ollie/programs/c++/SIunits/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/home/ollie/programs/c++/SIunits/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/home/ollie/programs/c++/SIunits/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ollie/programs/c++/SafeUnits/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ollie/programs/c++/SafeUnits/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ollie/programs/c++/SafeUnits/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ollie/programs/c++/SafeUnits/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="SIunits">
-				<Option output="/home/ollie/programs/c++/SIunits/cmake-build-debug/libSIunits.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ollie/programs/c++/SIunits/cmake-build-debug"/>
+				<Option output="/home/ollie/programs/c++/SafeUnits/cmake-build-debug/libSIunits.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ollie/programs/c++/SafeUnits/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/home/ollie/programs/c++/SIunits/cmake-build-debug/Makefile&quot;  VERBOSE=1 SIunits"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/ollie/programs/c++/SIunits/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/home/ollie/programs/c++/SIunits/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/home/ollie/programs/c++/SIunits/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ollie/programs/c++/SafeUnits/cmake-build-debug/Makefile&quot;  VERBOSE=1 SIunits"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ollie/programs/c++/SafeUnits/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ollie/programs/c++/SafeUnits/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ollie/programs/c++/SafeUnits/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="SIunits/fast">
-				<Option output="/home/ollie/programs/c++/SIunits/cmake-build-debug/libSIunits.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ollie/programs/c++/SIunits/cmake-build-debug"/>
+				<Option output="/home/ollie/programs/c++/SafeUnits/cmake-build-debug/libSIunits.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ollie/programs/c++/SafeUnits/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/home/ollie/programs/c++/SIunits/cmake-build-debug/Makefile&quot;  VERBOSE=1 SIunits/fast"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/ollie/programs/c++/SIunits/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/home/ollie/programs/c++/SIunits/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/home/ollie/programs/c++/SIunits/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ollie/programs/c++/SafeUnits/cmake-build-debug/Makefile&quot;  VERBOSE=1 SIunits/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ollie/programs/c++/SafeUnits/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ollie/programs/c++/SafeUnits/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ollie/programs/c++/SafeUnits/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/ollie/programs/c++/SIunits/library.cpp">
+		<Unit filename="/home/ollie/programs/c++/SafeUnits/library.cpp">
 			<Option target="SIunits"/>
 		</Unit>
-		<Unit filename="/home/ollie/programs/c++/SIunits/library.h">
+		<Unit filename="/home/ollie/programs/c++/SafeUnits/library.h">
 			<Option target="SIunits"/>
 		</Unit>
-		<Unit filename="/home/ollie/programs/c++/SIunits/subUnit.cpp">
+		<Unit filename="/home/ollie/programs/c++/SafeUnits/literals.cpp">
 			<Option target="SIunits"/>
 		</Unit>
-		<Unit filename="/home/ollie/programs/c++/SIunits/CMakeLists.txt">
+		<Unit filename="/home/ollie/programs/c++/SafeUnits/subUnit.cpp">
+			<Option target="SIunits"/>
+		</Unit>
+		<Unit filename="/home/ollie/programs/c++/SafeUnits/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

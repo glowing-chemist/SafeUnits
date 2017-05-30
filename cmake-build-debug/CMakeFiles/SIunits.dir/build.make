@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/ollie/Downloads/CLion-2017.1/clion-2017.1/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/ollie/Downloads/clion-2017.1.1/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/ollie/Downloads/CLion-2017.1/clion-2017.1/bin/cmake/bin/cmake -E remove -f
+RM = /home/ollie/Downloads/clion-2017.1.1/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ollie/programs/c++/SIunits
+CMAKE_SOURCE_DIR = /home/ollie/programs/c++/SafeUnits
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ollie/programs/c++/SIunits/cmake-build-debug
+CMAKE_BINARY_DIR = /home/ollie/programs/c++/SafeUnits/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/SIunits.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/SIunits.dir/flags.make
 
 CMakeFiles/SIunits.dir/library.cpp.o: CMakeFiles/SIunits.dir/flags.make
 CMakeFiles/SIunits.dir/library.cpp.o: ../library.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ollie/programs/c++/SIunits/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SIunits.dir/library.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SIunits.dir/library.cpp.o -c /home/ollie/programs/c++/SIunits/library.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ollie/programs/c++/SafeUnits/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SIunits.dir/library.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SIunits.dir/library.cpp.o -c /home/ollie/programs/c++/SafeUnits/library.cpp
 
 CMakeFiles/SIunits.dir/library.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SIunits.dir/library.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ollie/programs/c++/SIunits/library.cpp > CMakeFiles/SIunits.dir/library.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ollie/programs/c++/SafeUnits/library.cpp > CMakeFiles/SIunits.dir/library.cpp.i
 
 CMakeFiles/SIunits.dir/library.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SIunits.dir/library.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ollie/programs/c++/SIunits/library.cpp -o CMakeFiles/SIunits.dir/library.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ollie/programs/c++/SafeUnits/library.cpp -o CMakeFiles/SIunits.dir/library.cpp.s
 
 CMakeFiles/SIunits.dir/library.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/SIunits.dir/library.cpp.o.provides.build: CMakeFiles/SIunits.dir/libr
 
 CMakeFiles/SIunits.dir/subUnit.cpp.o: CMakeFiles/SIunits.dir/flags.make
 CMakeFiles/SIunits.dir/subUnit.cpp.o: ../subUnit.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ollie/programs/c++/SIunits/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SIunits.dir/subUnit.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SIunits.dir/subUnit.cpp.o -c /home/ollie/programs/c++/SIunits/subUnit.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ollie/programs/c++/SafeUnits/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SIunits.dir/subUnit.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SIunits.dir/subUnit.cpp.o -c /home/ollie/programs/c++/SafeUnits/subUnit.cpp
 
 CMakeFiles/SIunits.dir/subUnit.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SIunits.dir/subUnit.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ollie/programs/c++/SIunits/subUnit.cpp > CMakeFiles/SIunits.dir/subUnit.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ollie/programs/c++/SafeUnits/subUnit.cpp > CMakeFiles/SIunits.dir/subUnit.cpp.i
 
 CMakeFiles/SIunits.dir/subUnit.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SIunits.dir/subUnit.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ollie/programs/c++/SIunits/subUnit.cpp -o CMakeFiles/SIunits.dir/subUnit.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ollie/programs/c++/SafeUnits/subUnit.cpp -o CMakeFiles/SIunits.dir/subUnit.cpp.s
 
 CMakeFiles/SIunits.dir/subUnit.cpp.o.requires:
 
@@ -105,19 +105,45 @@ CMakeFiles/SIunits.dir/subUnit.cpp.o.provides: CMakeFiles/SIunits.dir/subUnit.cp
 CMakeFiles/SIunits.dir/subUnit.cpp.o.provides.build: CMakeFiles/SIunits.dir/subUnit.cpp.o
 
 
+CMakeFiles/SIunits.dir/literals.cpp.o: CMakeFiles/SIunits.dir/flags.make
+CMakeFiles/SIunits.dir/literals.cpp.o: ../literals.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ollie/programs/c++/SafeUnits/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SIunits.dir/literals.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SIunits.dir/literals.cpp.o -c /home/ollie/programs/c++/SafeUnits/literals.cpp
+
+CMakeFiles/SIunits.dir/literals.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SIunits.dir/literals.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ollie/programs/c++/SafeUnits/literals.cpp > CMakeFiles/SIunits.dir/literals.cpp.i
+
+CMakeFiles/SIunits.dir/literals.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SIunits.dir/literals.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ollie/programs/c++/SafeUnits/literals.cpp -o CMakeFiles/SIunits.dir/literals.cpp.s
+
+CMakeFiles/SIunits.dir/literals.cpp.o.requires:
+
+.PHONY : CMakeFiles/SIunits.dir/literals.cpp.o.requires
+
+CMakeFiles/SIunits.dir/literals.cpp.o.provides: CMakeFiles/SIunits.dir/literals.cpp.o.requires
+	$(MAKE) -f CMakeFiles/SIunits.dir/build.make CMakeFiles/SIunits.dir/literals.cpp.o.provides.build
+.PHONY : CMakeFiles/SIunits.dir/literals.cpp.o.provides
+
+CMakeFiles/SIunits.dir/literals.cpp.o.provides.build: CMakeFiles/SIunits.dir/literals.cpp.o
+
+
 # Object files for target SIunits
 SIunits_OBJECTS = \
 "CMakeFiles/SIunits.dir/library.cpp.o" \
-"CMakeFiles/SIunits.dir/subUnit.cpp.o"
+"CMakeFiles/SIunits.dir/subUnit.cpp.o" \
+"CMakeFiles/SIunits.dir/literals.cpp.o"
 
 # External object files for target SIunits
 SIunits_EXTERNAL_OBJECTS =
 
 libSIunits.a: CMakeFiles/SIunits.dir/library.cpp.o
 libSIunits.a: CMakeFiles/SIunits.dir/subUnit.cpp.o
+libSIunits.a: CMakeFiles/SIunits.dir/literals.cpp.o
 libSIunits.a: CMakeFiles/SIunits.dir/build.make
 libSIunits.a: CMakeFiles/SIunits.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ollie/programs/c++/SIunits/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libSIunits.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ollie/programs/c++/SafeUnits/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libSIunits.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/SIunits.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SIunits.dir/link.txt --verbose=$(VERBOSE)
 
@@ -128,6 +154,7 @@ CMakeFiles/SIunits.dir/build: libSIunits.a
 
 CMakeFiles/SIunits.dir/requires: CMakeFiles/SIunits.dir/library.cpp.o.requires
 CMakeFiles/SIunits.dir/requires: CMakeFiles/SIunits.dir/subUnit.cpp.o.requires
+CMakeFiles/SIunits.dir/requires: CMakeFiles/SIunits.dir/literals.cpp.o.requires
 
 .PHONY : CMakeFiles/SIunits.dir/requires
 
@@ -136,6 +163,6 @@ CMakeFiles/SIunits.dir/clean:
 .PHONY : CMakeFiles/SIunits.dir/clean
 
 CMakeFiles/SIunits.dir/depend:
-	cd /home/ollie/programs/c++/SIunits/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ollie/programs/c++/SIunits /home/ollie/programs/c++/SIunits /home/ollie/programs/c++/SIunits/cmake-build-debug /home/ollie/programs/c++/SIunits/cmake-build-debug /home/ollie/programs/c++/SIunits/cmake-build-debug/CMakeFiles/SIunits.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ollie/programs/c++/SafeUnits/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ollie/programs/c++/SafeUnits /home/ollie/programs/c++/SafeUnits /home/ollie/programs/c++/SafeUnits/cmake-build-debug /home/ollie/programs/c++/SafeUnits/cmake-build-debug /home/ollie/programs/c++/SafeUnits/cmake-build-debug/CMakeFiles/SIunits.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/SIunits.dir/depend
 

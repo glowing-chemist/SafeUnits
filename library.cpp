@@ -22,6 +22,9 @@ base_unit<base_type, ratio1, metres, kilograms, seconds, ampere, kelvin, mole, c
     return *this;
 };
 
+//#################################################################################################################################
+// Operators
+
 template<typename base_type1, typename base_type2, typename ratio1, typename ratio2, int metres, int kilograms, int seconds, int ampere, int kelvin, int mole, int candela>
 auto operator+(base_unit<base_type1, ratio1, metres, kilograms, seconds, ampere, kelvin, mole, candela>& lhs,
                base_unit<base_type2, ratio2, metres, kilograms, seconds, ampere, kelvin, mole, candela>& rhs) {
@@ -68,7 +71,7 @@ template<typename T>
 using Kilograms = base_unit<T, std::ratio<1>, 0, 1, 0, 0, 0, 0, 0>;
 
 template<typename T>
-using Second = base_unit<T, std::ratio<1>, 0, 0, 1, 0, 0, 0, 0>;
+using Seconds = base_unit<T, std::ratio<1>, 0, 0, 1, 0, 0, 0, 0>;
 
 template<typename T>
 using Ampere = base_unit<T, std::ratio<1>, 0, 0, 0, 1, 0, 0, 0>;

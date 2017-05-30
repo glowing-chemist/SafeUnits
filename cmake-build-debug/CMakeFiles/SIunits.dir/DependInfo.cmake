@@ -4,8 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ollie/programs/c++/SIunits/library.cpp" "/home/ollie/programs/c++/SIunits/cmake-build-debug/CMakeFiles/SIunits.dir/library.cpp.o"
-  "/home/ollie/programs/c++/SIunits/subUnit.cpp" "/home/ollie/programs/c++/SIunits/cmake-build-debug/CMakeFiles/SIunits.dir/subUnit.cpp.o"
+  "/home/ollie/programs/c++/SafeUnits/library.cpp" "/home/ollie/programs/c++/SafeUnits/cmake-build-debug/CMakeFiles/SIunits.dir/library.cpp.o"
+  "/home/ollie/programs/c++/SafeUnits/literals.cpp" "/home/ollie/programs/c++/SafeUnits/cmake-build-debug/CMakeFiles/SIunits.dir/literals.cpp.o"
+  "/home/ollie/programs/c++/SafeUnits/subUnit.cpp" "/home/ollie/programs/c++/SafeUnits/cmake-build-debug/CMakeFiles/SIunits.dir/subUnit.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/SIunits.dir/library.cpp.o"
   "CMakeFiles/SIunits.dir/subUnit.cpp.o"
+  "CMakeFiles/SIunits.dir/literals.cpp.o"
   "libSIunits.pdb"
   "libSIunits.a"
 )

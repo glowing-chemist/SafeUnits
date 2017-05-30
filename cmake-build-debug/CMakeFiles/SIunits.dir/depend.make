@@ -4,6 +4,11 @@
 CMakeFiles/SIunits.dir/library.cpp.o: ../library.cpp
 CMakeFiles/SIunits.dir/library.cpp.o: ../library.h
 
+CMakeFiles/SIunits.dir/literals.cpp.o: ../library.cpp
+CMakeFiles/SIunits.dir/literals.cpp.o: ../library.h
+CMakeFiles/SIunits.dir/literals.cpp.o: ../literals.cpp
+CMakeFiles/SIunits.dir/literals.cpp.o: ../subUnit.cpp
+
 CMakeFiles/SIunits.dir/subUnit.cpp.o: ../library.cpp
 CMakeFiles/SIunits.dir/subUnit.cpp.o: ../library.h
 CMakeFiles/SIunits.dir/subUnit.cpp.o: ../subUnit.cpp
