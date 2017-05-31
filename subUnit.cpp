@@ -1,27 +1,30 @@
 //
 // Created by ollie on 27/05/17.
 //
+#ifndef SUBUNIT
+#define SUBUNIT
+
 #include <ratio>
 
 #include "library.cpp"
 
 template<typename T>
-using Megameter = base_unit<T, std::ratio<1000000>, 1, 0, 0, 0, 0, 0, 0>;
+using MegaMeter = base_unit<T, std::ratio<1000000>, 1, 0, 0, 0, 0, 0, 0>;
 
 template<typename T>
-using Kilometer = base_unit<T, std::ratio<1000>, 1, 0, 0, 0, 0, 0, 0>;
+using KiloMeter = base_unit<T, std::ratio<1000>, 1, 0, 0, 0, 0, 0, 0>;
 
 template<typename T>
-using Centimeter = base_unit<T, std::ratio<1, 100>, 1, 0, 0, 0, 0, 0, 0>;
+using CentiMeter = base_unit<T, std::ratio<1, 100>, 1, 0, 0, 0, 0, 0, 0>;
 
 template<typename T>
-using Millimeter = base_unit<T, std::ratio<1, 1000>, 1, 0, 0, 0, 0, 0, 0>;
+using MilliMeter = base_unit<T, std::ratio<1, 1000>, 1, 0, 0, 0, 0, 0, 0>;
 
 template<typename T>
-using Micrometer = base_unit<T, std::ratio<1, 1000000>, 1, 0, 0, 0, 0, 0, 0>;
+using MicroMeter = base_unit<T, std::ratio<1, 1000000>, 1, 0, 0, 0, 0, 0, 0>;
 
 template<typename T>
-using Nanometer = base_unit<T, std::ratio<1, 1000000000>, 1, 0, 0, 0, 0, 0, 0>;
+using NanoMeter = base_unit<T, std::ratio<1, 1000000000>, 1, 0, 0, 0, 0, 0, 0>;
 
 template<typename T>
 using Wavenumbers = base_unit<T, std::ratio<1, 100>, -1, 0, 0, 0, 0, 0, 0>;
@@ -34,13 +37,13 @@ using Gram = base_unit<T, std::ratio<1, 1000>, 0, 1, 0, 0, 0, 0, 0>;
 //#############################################################################
 
 template<typename T>
-using Milliseconds = base_unit<T, std::ratio<1, 1000>, 0, 0, 1, 0, 0, 0, 0>;
+using MilliSeconds = base_unit<T, std::ratio<1, 1000>, 0, 0, 1, 0, 0, 0, 0>;
 
 template<typename T>
-using Microseconds = base_unit<T, std::ratio<1, 1000000>, 0, 0, 1, 0, 0, 0, 0>;
+using MicroSeconds = base_unit<T, std::ratio<1, 1000000>, 0, 0, 1, 0, 0, 0, 0>;
 
 template<typename T>
-using Nanoseconds = base_unit<T, std::ratio<1, 1000000000>, 0, 0, 1, 0, 0, 0, 0>;
+using NanoSeconds = base_unit<T, std::ratio<1, 1000000000>, 0, 0, 1, 0, 0, 0, 0>;
 
 template<typename T>
 using Minutes = base_unit<T, std::ratio<60, 1>, 0, 0, 1, 0, 0, 0, 0>;
@@ -54,16 +57,16 @@ using Days = base_unit<T, std::ratio<86400, 1>, 0, 0, 1, 0, 0, 0, 0>;
 //##############################################################################
 
 template<typename T>
-using Microampere = base_unit<T, std::ratio<1, 1000000>, 0, 0, 0, 1, 0, 0, 0>;
+using MicroAmpere = base_unit<T, std::ratio<1, 1000000>, 0, 0, 0, 1, 0, 0, 0>;
 
 template<typename T>
-using Milliampere = base_unit<T, std::ratio<1, 1000>, 0, 0, 0, 1, 0, 0, 0>;
+using MilliAmpere = base_unit<T, std::ratio<1, 1000>, 0, 0, 0, 1, 0, 0, 0>;
 
 template<typename T>
-using Kiloampere = base_unit<T, std::ratio<1000, 1>, 0, 0, 0, 1, 0, 0, 0>;
+using KiloAmpere = base_unit<T, std::ratio<1000, 1>, 0, 0, 0, 1, 0, 0, 0>;
 
 template<typename T>
-using Megaampere = base_unit<T, std::ratio<1000000, 1>, 0, 0, 0, 1, 0, 0, 0>;
+using MegaAmpere = base_unit<T, std::ratio<1000000, 1>, 0, 0, 0, 1, 0, 0, 0>;
 
 //##############################################################################
 
@@ -73,21 +76,22 @@ using MilliKelvin = base_unit<T, std::ratio<1, 1000>, 0, 0, 0, 0, 1, 0, 0>;
 //##############################################################################
 
 template<typename T>
-using Millimole = base_unit<T, std::ratio<1, 1000>, 0, 0, 0, 0, 0, 1, 0>;
+using MilliMole = base_unit<T, std::ratio<1, 1000>, 0, 0, 0, 0, 0, 1, 0>;
 
 template<typename T>
-using Micromole = base_unit<T, std::ratio<1, 1000000>, 0, 0, 0, 0, 0, 1, 0>;
+using MicroMole = base_unit<T, std::ratio<1, 1000000>, 0, 0, 0, 0, 0, 1, 0>;
 
 //#############################################################################
 
 template<typename T>
-using Kilohertz = base_unit<T, std::ratio<1000, 1>, 0, 0, -1, 0, 0, 0, 0>;
+using KiloHertz = base_unit<T, std::ratio<1000, 1>, 0, 0, -1, 0, 0, 0, 0>;
 
 template<typename T>
-using Megahertz = base_unit<T, std::ratio<1000000, 1>, 0, 0, -1, 0, 0, 0, 0>;
+using MegaHertz = base_unit<T, std::ratio<1000000, 1>, 0, 0, -1, 0, 0, 0, 0>;
 
 template<typename T>
-using Gigahertz = base_unit<T, std::ratio<1000000000, 1>, 0, 0, -1, 0, 0, 0, 0>;
+using GigaHertz = base_unit<T, std::ratio<1000000000, 1>, 0, 0, -1, 0, 0, 0, 0>;
 
 //##############################################################################
 
+#endif
