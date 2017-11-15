@@ -115,20 +115,19 @@ using Density = base_unit<T, std::ratio<1>, -3, 1, 0, 0, 0, 0, 0>;
 template<typename base_type, typename ratio, int metres, int kilograms, int seconds, int ampere, int kelvin, int mole, int candela>
 std::ostream& operator<<(std::ostream& cout, base_unit<base_type, ratio, metres, kilograms, seconds, ampere, kelvin, mole, candela>& rhs) {
     cout << base_type(rhs) << ' ';
-    //can all be made constexpr in c++17!!!
-    if (metres != 0) {
+    if constexpr (metres != 0) {
         cout << "M^" << metres << ' ';
-    } if(kilograms != 0) {
+    } if constexpr (kilograms != 0) {
         cout << "Kg^" << kilograms << ' ';
-    } if(seconds != 0) {
+    } if constexpr (seconds != 0) {
         cout << "S^" << seconds << ' ';
-    } if(ampere != 0) {
+    } if constexpr (ampere != 0) {
         cout << "A^" << ampere << ' ';
-    } if(kelvin != 0) {
+    } if constexpr (kelvin != 0) {
         cout << "K^" << kelvin << ' ';
-    } if(mole != 0) {
+    } if constexpr (mole != 0) {
         cout << "M^" << mole << ' ';
-    } if(candela != 0) {
+    } if constexpr (candela != 0) {
         cout << "Cd" << candela << ' ';
     }
     return cout;
