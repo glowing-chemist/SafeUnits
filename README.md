@@ -1,4 +1,4 @@
-SafeUnits is a header only library that exposes all common scientific units.
+SafeUnits is a library that exposes all common scientific units.
 All interactions between the units are checked at compile time so that only interactions between units 
 that make sense will type check.
 An example of code that will throw an error at compile time due to incorrect units being used
